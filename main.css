@@ -1,0 +1,79 @@
+body{
+  background-color: DeepSkyBlue
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 10rem;
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  min-width: 100%;
+  height: 10rem;
+}
+
+@media (min-width: 576px) {
+  .carousel-item {
+  height: 15rem;
+  }
+  .carousel-item > img {
+  height: 15rem;
+  }
+}
+
+
+@media (min-width: 768px) {
+.carousel-item {
+  height: 20rem;
+  }
+  .carousel-item > img {
+  height: 20rem;
+  }
+}
+
+@media (min-width: 992px) { 
+  .carousel-item {
+  height: 28rem;
+  }
+  .carousel-item > img {
+  height: 28rem;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .carousel-item {
+  height: 32rem;
+  }
+  .carousel-item > img {
+  height: 32rem;
+  }
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='gold' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='gold' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/*@media (min-width: 40em) {
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+}*/
